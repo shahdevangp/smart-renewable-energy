@@ -59,7 +59,7 @@ spec:
     app: iiot-simulator-factory
 ---
 apiVersion: mq.iotoperations.azure.com/v1beta1
-kind: BrokerListener
+kind: Broker
 metadata:
   name: iiot-simulator-factory-listener
   namespace: azure-iot-operations
